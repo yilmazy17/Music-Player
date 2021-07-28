@@ -29,7 +29,6 @@ namespace Music_Player
             Player.URL = textBox1.Text;
             string fullname = textBox1.Text;
             string Songname = fullname.Split('\\').Last();
-            Songname = Songname.Split('.').First();
             textBox1.Text = Songname.ToUpper();
         }
 
